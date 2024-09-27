@@ -17,4 +17,4 @@ jobs:
       - run: pnpm run --if-present lint
       - run: pnpm run --if-present prettier:check
       - run: pnpm test
-      - run: pnpm run --if-presetn build
+      - run: pnpm run --if-present build
